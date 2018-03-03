@@ -9,7 +9,7 @@
 or
 
 ```php
-  $user = BitcoinTalk::accountId(<ACCOUNT_URL>);
+  $user = BitcoinTalk::accountUrl(<ACCOUNT_URL>);
 ```
 
 ```php
