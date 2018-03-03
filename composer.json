@@ -1,0 +1,21 @@
+{
+  "name": "dvomaks/bitcointalk-php-parser",
+  "description": "Bitcointalk.org parser",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dvomaks",
+      "email": "dvomaks@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dvomaks\\BitcoinTalkAccount\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "sunra/php-simple-html-dom-parser": "1.5.2"
+  }
+}
