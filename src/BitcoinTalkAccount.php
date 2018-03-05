@@ -6,7 +6,7 @@
  * Time: 10:43
  */
 
-namespace Dvomaks\BitcoinTalkAccount;
+namespace Dvomaks\BitcoinTalk;
 
 use Sunra\PhpSimple\HtmlDomParser;
 
@@ -35,6 +35,10 @@ class BitcoinTalkAccount {
             $this->html = HtmlDomParser::file_get_html($this->account_url);
 
             $row = $this->html->find('td[class=windowbg]', 0);
+
+            if(is_null($row)){
+                return;
+            }
 
             foreach ($row->find('tr') as $tr){
                 $td = $tr->find('td');

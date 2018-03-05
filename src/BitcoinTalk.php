@@ -6,9 +6,9 @@
  * Time: 15:57
  */
 
-namespace Dvomaks\BitcoinTalkAccount;
+namespace Dvomaks\BitcoinTalk;
 
-use Dvomaks\BitcoinTalkAccount\BitcoinTalkAccount;
+use Dvomaks\BitcoinTalk\BitcoinTalkAccount;
 
 class BitcoinTalk {
     public static function accountUrl($url)
